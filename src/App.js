@@ -160,7 +160,7 @@ export default class App extends Component {
           <p>
             View source code on{" "}
             <a
-              href="https://ayaka14732.github.io/uyghur-practice/"
+              href="https://github.com/ayaka14732/uyghur-practice"
               target="_blank"
               rel="noreferrer"
             >
