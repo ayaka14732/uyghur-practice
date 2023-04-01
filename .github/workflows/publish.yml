@@ -13,8 +13,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "18"
-      - run: npm install -g yarn
-      - run: yarn build
+      - name: Install dependencies
+        run: |
+          npm install -g yarn
+          yarn install
+      - name: Build
+        run: yarn build
       - name: Publish
         run: |
           # Create a temporary directory
