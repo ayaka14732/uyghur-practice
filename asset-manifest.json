@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uyghur-practice/static/css/main.e11a1327.chunk.css",
+    "main.js": "/uyghur-practice/static/js/main.50730f24.chunk.js",
+    "main.js.map": "/uyghur-practice/static/js/main.50730f24.chunk.js.map",
+    "runtime-main.js": "/uyghur-practice/static/js/runtime-main.08bf79dd.js",
+    "runtime-main.js.map": "/uyghur-practice/static/js/runtime-main.08bf79dd.js.map",
+    "static/css/2.b8e408b6.chunk.css": "/uyghur-practice/static/css/2.b8e408b6.chunk.css",
+    "static/js/2.d1b1a49c.chunk.js": "/uyghur-practice/static/js/2.d1b1a49c.chunk.js",
+    "static/js/2.d1b1a49c.chunk.js.map": "/uyghur-practice/static/js/2.d1b1a49c.chunk.js.map",
+    "static/js/3.05d02007.chunk.js": "/uyghur-practice/static/js/3.05d02007.chunk.js",
+    "static/js/3.05d02007.chunk.js.map": "/uyghur-practice/static/js/3.05d02007.chunk.js.map",
+    "index.html": "/uyghur-practice/index.html",
+    "static/css/2.b8e408b6.chunk.css.map": "/uyghur-practice/static/css/2.b8e408b6.chunk.css.map",
+    "static/css/main.e11a1327.chunk.css.map": "/uyghur-practice/static/css/main.e11a1327.chunk.css.map",
+    "static/js/2.d1b1a49c.chunk.js.LICENSE.txt": "/uyghur-practice/static/js/2.d1b1a49c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08bf79dd.js",
+    "static/css/2.b8e408b6.chunk.css",
+    "static/js/2.d1b1a49c.chunk.js",
+    "static/css/main.e11a1327.chunk.css",
+    "static/js/main.50730f24.chunk.js"
+  ]
+}
