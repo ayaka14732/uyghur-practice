@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jomolhari&family=Roboto");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap");
 
+a {
+  text-decoration: none !important;
+}
+
 :lang(ug) {
   font-family: "Noto Naskh Arabic", serif;
 }
@@ -33,6 +37,21 @@
   top: 20px;
   right: 20px;
   text-align: right;
+}
+
+.bottom-panel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-bottom: 2.5em;
+}
+
+.bottom-panel p {
+  margin-bottom: 0.5em;
 }
 
 .round {

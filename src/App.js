@@ -80,7 +80,7 @@ export default class App extends Component {
             userAnswer: "",
             counter: this.state.counter + 1,
           });
-        }, 1000);
+        }, 500);
       }
     }
   }
@@ -94,6 +94,10 @@ export default class App extends Component {
     const char = e.target.textContent;
     const uls = toULS(char);
     this.setState({ uls });
+  };
+
+  handleLeave = (e) => {
+    this.setState({ uls: "" });
   };
 
   handleSpanClick = (e) => {
@@ -115,7 +119,10 @@ export default class App extends Component {
               {uyghur.split("").map((char, i) => (
                 <span
                   key={i}
-                  onPointerOver={this.handleHover}
+                  onPointerEnter={this.handleHover}
+                  onTouchStart={this.handleHover}
+                  onPointerLeave={this.handleLeave}
+                  onTouchEnd={this.handleLeave}
                   onClick={this.handleSpanClick}
                 >
                   {char}
@@ -133,10 +140,12 @@ export default class App extends Component {
             </p>
           </div>
         </div>
+
         <div className="left-panel my-2 pt-2 mx-3">
           <p>Count: {counter}</p>
-          <p>Hover hint: {JSON.stringify(uls)}</p>
+          {uls && <p>Hover hint: {uls}</p>}
         </div>
+
         <div className="right-panel my-2 mx-3">
           <input
             type="button"
@@ -145,6 +154,20 @@ export default class App extends Component {
             onClick={() => this.setState({ hint: !hint })}
           />
           <p className={hint ? "my-2" : "my-2 invisible"}>{latin}</p>
+        </div>
+
+        <div className="bottom-panel">
+          <p>
+            View source code on{" "}
+            <a
+              href="https://ayaka14732.github.io/uyghur-practice/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </p>
+          <p>Please use a browser that supports Arabic script</p>
         </div>
       </React.Fragment>
     );

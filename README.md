@@ -16,4 +16,4 @@ If you are interested in contributing to this project, we encourage you to do so
 
 ## Acknowledgements
 
-The word list is taken from [iamironrabbit/monlam-dictionary](https://github.com/colordict/colordict.github.io/blob/a402ec135da921771135c63b952eb9d827c995e1/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz).
+The word list is taken from [colordict/colordict.github.io](https://github.com/colordict/colordict.github.io/blob/a402ec135da921771135c63b952eb9d827c995e1/stardict-anatilim-uyghur-chinese_uy-cn-2.4.2.tar.gz).
